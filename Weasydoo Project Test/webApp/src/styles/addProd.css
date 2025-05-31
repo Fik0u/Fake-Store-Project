@@ -1,0 +1,63 @@
+.add-product-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f6ff;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(174, 129, 255, 0.15);
+}
+
+.add-product-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #6e3fc2;
+  text-shadow: 0 0 6px rgba(174, 129, 255, 0.4);
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-product-form input,
+.add-product-form textarea,
+.add-product-form select {
+  padding: 0.8rem 1rem;
+  border: 2px solid #c9b8f3;
+  border-radius: 12px;
+  background-color: #fff;
+  color: #2e003e;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(174, 129, 255, 0.08);
+}
+
+.add-product-form input:focus,
+.add-product-form textarea:focus,
+.add-product-form select:focus {
+  box-shadow: 0 0 12px rgba(174, 129, 255, 0.5);
+}
+
+.add-product-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-button {
+  background-color: #6e3fc2;
+  color: white;
+  padding: 0.8rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+  background-color: #855eff;
+  transform: translateY(-2px);
+}
