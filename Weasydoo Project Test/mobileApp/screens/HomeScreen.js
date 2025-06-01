@@ -120,13 +120,13 @@ return (
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 16, backgroundColor: '#faf8ff' },
+  container: { flex: 1, padding: 10, backgroundColor: '#faf8ff' },
   title: { fontSize: 24, fontWeight: 'bold', color: '#5d3fd3', textAlign: 'center', marginBottom: 16 },
   addButton: { backgroundColor: '#6e57e0', padding: 12, borderRadius: 8, alignItems: 'center', marginBottom: 12 },
   addButtonText: { color: 'white', fontWeight: 'bold' },
   filterContainer: { flexDirection: 'row', marginBottom: 16, alignItems: 'center', justifyContent: 'space-between' },
   searchInput: { flex: 1, height: 40, borderColor: '#6e57e0', borderWidth: 1, borderRadius: 8, paddingHorizontal: 8, color: '#4b3ca7', backgroundColor: '#f3f0ff' },
-  picker: { width: 150, height: 40, color: '#4b3ca7', backgroundColor: '#f3f0ff', borderRadius: 8 },
+  picker: { width: 200, height: 50, color: '#4b3ca7', backgroundColor: '#f3f0ff', borderRadius: 40, marginLeft: 10 },
   productList: { paddingBottom: 50 },
   card: { flex: 1, backgroundColor: 'white', margin: 8, borderRadius: 8, padding: 10, shadowColor: '#6e57e0', shadowOpacity: 0.2, shadowRadius: 5, elevation: 3 },
   productImage: { width: '100%', height: 120, resizeMode: 'contain', marginBottom: 8 },

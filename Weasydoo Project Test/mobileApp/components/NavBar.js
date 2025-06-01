@@ -13,11 +13,6 @@ export default function Navbar() {
         <TouchableOpacity onPress={() => navigation.navigate('Home')}>
           <Text style={styles.link}>Home</Text>
         </TouchableOpacity>
-        {user && (
-          <TouchableOpacity onPress={() => navigation.navigate('AddProduct')}>
-            <Text style={styles.link}>Add Product</Text>
-          </TouchableOpacity>
-        )}
       </View>
 
       <View style={styles.right}>
@@ -44,8 +39,10 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     backgroundColor: '#f5e9ff',
+    marginTop: 20,
+    marginBottom: 20,
     padding: 10,
-    borderBottomWidth: 1,
+    borderBottomWidth: 2,
     borderColor: '#d0a7ff',
     shadowColor: '#c084fc',
     shadowOffset: { width: 0, height: 2 },
